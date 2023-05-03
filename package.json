@@ -1,0 +1,19 @@
+{
+  "name": "sayna-htmlcss-panther",
+  "version": "1.0.0",
+  "description": "Evaluation HTML-CSS-SASS",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./Assets/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elielaurentraphael/SAYNA-HTMLCSS-PANTHER.git"
+  },
+  "author": "elielaurentraphael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elielaurentraphael/SAYNA-HTMLCSS-PANTHER/issues"
+  },
+  "homepage": "https://github.com/elielaurentraphael/SAYNA-HTMLCSS-PANTHER#readme"
+}
