@@ -1,4 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+@font-face {
+    font-family: 'Panthera';
+    src: url('/PantheraRegular-MVZ9J.ttf');
+}
+@font-face {
+    font-family: 'BEYNO';
+    src: url('/BEYNO.ttf');
+}
+@font-face {
+    font-family: 'Wakanda forever';
+    src: url('/Wakanda4Ever-gxg5p.ttf');
+}
 body {
     width: 95vw;
     margin: 0 auto;
@@ -9,21 +21,27 @@ body {
 }
 
 header {
-    background-color: #021740;
+    background-image: url('/Assets/Illustrations+Logo/All-pages/arrière_plan.png');
     nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 0 8vw;
+        padding: 1.3vw 8vw;
         div {
             img {
                 width: 7vw;
             }
             ul {
+                font-family: 'BEYNO';
+                font-size: 1vw;
                 list-style: none;
                 li {
                     color: #9e91b7;
                     display: inline-block;
+                    margin-left: 3vw;
+                    &.link-active {
+                        text-decoration: underline;
+                    }
                     a {
                         text-decoration: none;
                         color: #fff;
@@ -34,15 +52,108 @@ header {
     }
     .titre {
         display: flex;
+        align-items: center;
+        justify-content: flex-end;
         .bloc {
             color: #fff;
+            h1 {
+                font-family: "Panthera";
+                font-size: 3vw;
+                letter-spacing: .3vw;
+            }
+            h2 {
+                font-family: 'BEYNO';
+                font-size: 1.6vw;
+                font-weight: 100;
+                color: #F2CEF2;
+            }
+            p {
+                font-family: "Cantarell";
+                font-size: .8vw;
+                font-weight: 500;
+                line-height: 1.1vw;
+                text-shadow: .035vw .035vw #fff;
+            }
         }
         div {
             img {
-                width: 61vw;
+                width: 60vw;
                 /*margin-top: .5vw;
                 margin-left: 34.5vw;*/
             }
+        }
+    }
+    .personnage {
+        width: 91.5%;
+        position: relative;
+        right: -8.05vw;
+        top: -4.5vw;
+        background-image: url('/Assets/Illustrations+Logo/All-pages/back_footer.png');
+        /*border: 2px solid red;*/
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        .text1 {
+            border: 2px solid yellow;
+            width: 20.4vw;
+            color: #fff;
+            h2 {
+                font-family: 'BEYNO';
+                font-weight: 100;
+                font-size: 1vw;
+            }
+            p {
+                background-color: red;
+                width: 16.6vw;
+                font-family: "Cantarell";
+                font-size: .8vw;
+                font-weight: 500;
+                line-height: 1.1vw;
+                text-shadow: .035vw .035vw #fff;
+                margin: auto;
+            }
+        }
+        /*.pantherhome3 img {
+            width: 14.5vw;
+        }*/
+        .pantherhome3 {
+            width: 14.5vw;
+        }
+        .text2 {
+            border: 2px solid yellow;
+            width: 20.4vw;
+            color: #fff;
+            .text22 {
+                border: 10px solid blue;
+                margin: auto;
+                h2 {
+                    font-family: 'BEYNO';
+                    font-weight: 100;
+                    font-size: 1vw;                 
+                }
+                p {
+                    background-color: red;
+                    width: 16.6vw;
+                    font-family: "Cantarell";
+                    font-size: .8vw;
+                    font-weight: 500;
+                    line-height: 1.1vw;
+                    text-shadow: .035vw .035vw #fff;
+                }
+            }
+        }
+        /*.pantherhome4 img {
+            width: 10.5vw;
+        }*/
+        .pantherhome4 {
+            width: 10.63vw;
+        }
+        .pantherhome2 {
+            display: block;
+            position: absolute;
+            width: 19vw;
+            left: 2vw;
+            top: -2.5vw;
         }
     }
 }
