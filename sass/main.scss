@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
 @font-face {
     font-family: 'Panthera';
-    src: url('/PantheraRegular-MVZ9J.ttf');
+    src: url('/Assets/Polices/PantheraRegular-MVZ9J.ttf');
 }
 @font-face {
     font-family: 'BEYNO';
-    src: url('/BEYNO.ttf');
+    src: url('/Assets/Polices/BEYNO.ttf');
 }
 @font-face {
     font-family: 'Wakanda forever';
-    src: url('/Wakanda4Ever-gxg5p.ttf');
+    src: url('/Assets/Polices/Wakanda4Ever-gxg5p.ttf');
 }
 body {
     width: 95vw;
@@ -20,116 +20,85 @@ body {
     box-sizing: border-box;
 }
 
-header {
+.wrapper {
     background-image: url('/Assets/Illustrations+Logo/All-pages/arrière_plan.png');
-    nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1.3vw 8vw;
-        div {
-            img {
-                width: 7vw;
-            }
-            ul {
-                font-family: 'BEYNO';
-                font-size: 1vw;
-                list-style: none;
-                li {
-                    color: #9e91b7;
-                    display: inline-block;
-                    margin-left: 3vw;
-                    &.link-active {
-                        text-decoration: underline;
-                    }
-                    a {
-                        text-decoration: none;
-                        color: #fff;
+    header {
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1.3vw 8vw;
+            div {
+                img {
+                    width: 7vw;
+                }
+                ul {
+                    font-family: 'BEYNO';
+                    font-size: 1vw;
+                    list-style: none;
+                    li {
+                        color: #9e91b7;
+                        display: inline-block;
+                        margin-left: 3vw;
+                        &.link-active {
+                            text-decoration: underline;
+                        }
+                        a {
+                            text-decoration: none;
+                            color: #fff;
+                        }
                     }
                 }
             }
         }
-    }
-    .titre {
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        .bloc {
-            color: #fff;
-            h1 {
-                font-family: "Panthera";
-                font-size: 3vw;
-                letter-spacing: .3vw;
+        .titre {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            .bloc {
+                color: #fff;
+                h1 {
+                    font-family: "Panthera";
+                    font-size: 3vw;
+                    letter-spacing: .3vw;
+                }
+                h2 {
+                    font-family: 'BEYNO';
+                    font-size: 1.6vw;
+                    font-weight: 100;
+                    color: #F2CEF2;
+                }
+                p {
+                    font-family: "Cantarell";
+                    font-size: .8vw;
+                    font-weight: 500;
+                    line-height: 1.1vw;
+                    text-shadow: .035vw .035vw #fff;
+                }
             }
-            h2 {
-                font-family: 'BEYNO';
-                font-size: 1.6vw;
-                font-weight: 100;
-                color: #F2CEF2;
-            }
-            p {
-                font-family: "Cantarell";
-                font-size: .8vw;
-                font-weight: 500;
-                line-height: 1.1vw;
-                text-shadow: .035vw .035vw #fff;
-            }
-        }
-        div {
-            img {
-                width: 60vw;
-                /*margin-top: .5vw;
-                margin-left: 34.5vw;*/
+            div {
+                img {
+                    width: 60vw;
+                }
             }
         }
-    }
-    .personnage {
-        width: 91.5%;
-        position: relative;
-        right: -8.05vw;
-        top: -4.5vw;
-        background-image: url('/Assets/Illustrations+Logo/All-pages/back_footer.png');
-        /*border: 2px solid red;*/
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        .text1 {
-            border: 2px solid yellow;
-            width: 20.4vw;
-            color: #fff;
-            h2 {
-                font-family: 'BEYNO';
-                font-weight: 100;
-                font-size: 1vw;
-            }
-            p {
-                background-color: red;
-                width: 16.6vw;
-                font-family: "Cantarell";
-                font-size: .8vw;
-                font-weight: 500;
-                line-height: 1.1vw;
-                text-shadow: .035vw .035vw #fff;
-                margin: auto;
-            }
-        }
-        /*.pantherhome3 img {
-            width: 14.5vw;
-        }*/
-        .pantherhome3 {
-            width: 14.5vw;
-        }
-        .text2 {
-            border: 2px solid yellow;
-            width: 20.4vw;
-            color: #fff;
-            .text22 {
-                border: 10px solid blue;
-                margin: auto;
+        .personnage {
+            width: 91.5%;
+            position: relative;
+            right: -8.05vw;
+            top: -4.5vw;
+            background-image: url('/Assets/Illustrations+Logo/All-pages/back_footer.png');
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            .text1 {
+                border: 2px solid yellow;
+                width: 20.4vw;
+                color: #fff;
                 h2 {
                     font-family: 'BEYNO';
                     font-weight: 100;
-                    font-size: 1vw;                 
+                    font-size: 1vw;
                 }
                 p {
                     background-color: red;
@@ -139,21 +108,177 @@ header {
                     font-weight: 500;
                     line-height: 1.1vw;
                     text-shadow: .035vw .035vw #fff;
+                    margin: auto;
+                }
+            }
+            .pantherhome3 {
+                width: 14.5vw;
+            }
+            .text2 {
+                border: 2px solid yellow;
+                width: 20.4vw;
+                color: #fff;
+                .text22 {
+                    border: 10px solid blue;
+                    margin: auto;
+                    h2 {
+                        font-family: 'BEYNO';
+                        font-weight: 100;
+                        font-size: 1vw;                 
+                    }
+                    p {
+                        background-color: red;
+                        width: 16.6vw;
+                        font-family: "Cantarell";
+                        font-size: .8vw;
+                        font-weight: 500;
+                        line-height: 1.1vw;
+                        text-shadow: .035vw .035vw #fff;
+                    }
+                }
+            }
+            .pantherhome4 {
+                width: 10.63vw;
+            }
+            .pantherhome2 {
+                display: block;
+                position: absolute;
+                width: 19vw;
+                left: 2vw;
+                top: -2.5vw;
+            }
+        }
+    }
+    main {
+        section {
+            margin-top: 5vw;
+            color: #fff;
+            display: flex;
+            .main-text {
+                width: 39.441%;
+                margin-left: 13.6646%;
+                h3 {
+                    font-family: "BEYNO";
+                    font-size: 1.15vw;
+                    color: #9e91b7;
+                }
+                p {
+                    margin: 1.1vw 0;
+                    text-align: justify;
+                    font-size: .678vw;
+                    line-height: 1.13vw;
+                }
+                .prince {
+                    .p2 {
+                        text-align: justify;
+                        font-size: .679vw;
+                        margin-bottom: 1.2vw;
+                    }
+                    .p3 {
+                        text-align: justify;
+                        font-size: .72vw;
+                        margin-bottom: 1.5vw;
+                    }
+                }
+                .vengeur {
+                    .p4 {
+                        text-align: justify;
+                        font-size: .7vw;
+                        margin-bottom: 1.5vw;
+                    }
+                    .p5 {
+                        text-align: justify;
+                        font-size: .678vw;
+                    }
+                    .p6 {
+                        text-align: justify;
+                        font-size: .69vw;
+                        margin-bottom: 1.8vw;
+                    }
+                    .p7 {
+                        text-align: justify;
+                        font-size: .72vw;
+                        margin-bottom: 1.8vw;
+                    }
+                }
+                .justicier {
+                    .p8 {
+                        text-align: justify;
+                        font-size: .72vw;
+                    }
+                }
+            }
+            .main-image {
+                position: relative;
+                width: 25.1638%;
+                margin-left: 10.24%;
+                margin-right: 11.4906%;
+                .tchalla {
+                    width: 100%;
+                    height: 37vw;
+                    background-color: #f2cef2;
+                    margin-top: 12vw;
+                    border-radius: .47vw;
+                    -webkit-border-radius: .47vw;
+                    -moz-border-radius: .47vw;
+                    -ms-border-radius: .47vw;
+                    -o-border-radius: .47vw;
+                }
+                .pantherhome5 {
+                    width: 19.3vw;
+                    display: block;
+                    position: absolute;
+                    top: -1.3vw;
+                    left: 2.25vw;
+                }
+                .pantherhome6 {
+                    width: 25vw;
+                    display: block;
+                    margin-top: 6vw;
                 }
             }
         }
-        /*.pantherhome4 img {
-            width: 10.5vw;
-        }*/
-        .pantherhome4 {
-            width: 10.63vw;
+        .contact {
+            position: relative;
+            img {
+                display: block;
+                width: 100%;
+            }
+            .raccord {
+                width: 100%;
+                height: 11vw;
+                /*border: 2px solid yellow;*/
+                position: absolute;
+                top: 45.5vw;
+                background-image: url('/Assets/Illustrations+Logo/All-pages/arrière_plan.png');
+            }
         }
-        .pantherhome2 {
-            display: block;
-            position: absolute;
-            width: 19vw;
-            left: 2vw;
-            top: -2.5vw;
+    }
+    footer {
+        background-image: url('/Assets/Illustrations+Logo/All-pages/back_footer.png');
+        height: 38.6vw;
+        display: flex;
+        .a {
+            width: 47.207%;
         }
+        .b {
+            color: #fff;
+            width: 52.795%;
+            .c {
+                height: 28.3vw;
+                padding-top: 10vw;
+                display: flex;
+                .d {
+                    width: 35%;
+                }
+                .e {
+                    width: 65%;
+                }
+            }
+            .h {
+                height: 10.3vw;
+            }
+        }
+        
     }
 }
