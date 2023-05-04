@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+body {
+    width: 95vw;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #021740;
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 8vw;
+        div {
+            img {
+                width: 7vw;
+            }
+            ul {
+                list-style: none;
+                li {
+                    color: #9e91b7;
+                    display: inline-block;
+                    a {
+                        text-decoration: none;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    .titre {
+        display: flex;
+        .bloc {
+            color: #fff;
+        }
+        div {
+            img {
+                width: 61vw;
+                /*margin-top: .5vw;
+                margin-left: 34.5vw;*/
+            }
+        }
+    }
+}

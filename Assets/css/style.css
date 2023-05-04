@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Cantarell&display=swap");
+body {
+  width: 95vw;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #021740;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8vw;
+}
+header nav div img {
+  width: 7vw;
+}
+header nav div ul {
+  list-style: none;
+}
+header nav div ul li {
+  color: #9e91b7;
+  display: inline-block;
+}
+header nav div ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+header .titre {
+  display: flex;
+}
+header .titre .bloc {
+  color: #fff;
+}
+header .titre div img {
+  width: 61vw;
+  /*margin-top: .5vw;
+  margin-left: 34.5vw;*/
+}
+
+/*# sourceMappingURL=style.css.map */
