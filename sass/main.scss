@@ -61,12 +61,13 @@ body {
                     font-family: "Panthera";
                     font-size: 3vw;
                     letter-spacing: .3vw;
+                    color: #9e91b7;
                 }
                 h2 {
                     font-family: 'BEYNO';
                     font-size: 1.6vw;
                     font-weight: 100;
-                    color: #F2CEF2;
+                    color: #9e91b7;
                 }
                 p {
                     font-family: "Cantarell";
@@ -87,53 +88,60 @@ body {
             position: relative;
             right: -8.05vw;
             top: -4.5vw;
-            background-image: url('/Assets/Illustrations+Logo/All-pages/back_footer.png');
+            background-color: #021740;
             display: flex;
             align-items: center;
             justify-content: flex-end;
             .text1 {
-                border: 2px solid yellow;
                 width: 20.4vw;
                 color: #fff;
-                h2 {
-                    font-family: 'BEYNO';
-                    font-weight: 100;
-                    font-size: 1vw;
+                h3 {
+                    margin-left: 1.8vw;
+                    margin-bottom: .4vw;
+                    font-family: "BEYNO";
+                    font-size: 1.15vw;
+                    color: #9e91b7;
                 }
                 p {
-                    background-color: red;
                     width: 16.6vw;
                     font-family: "Cantarell";
-                    font-size: .8vw;
+                    font-size: .678vw;
                     font-weight: 500;
                     line-height: 1.1vw;
+                    text-align: justify;
                     text-shadow: .035vw .035vw #fff;
                     margin: auto;
+                    margin-bottom: 3.5vw;
+                    span {
+                        text-decoration: underline;
+                    }
                 }
             }
             .pantherhome3 {
                 width: 14.5vw;
             }
             .text2 {
-                border: 2px solid yellow;
                 width: 20.4vw;
                 color: #fff;
-                .text22 {
-                    border: 10px solid blue;
+                h3 {
+                    margin-left: 1.8vw;
+                    margin-bottom: .4vw;
+                    font-family: "BEYNO";
+                    font-size: 1.15vw;
+                    color: #9e91b7;               
+                }
+                p {
+                    width: 16.6vw;
+                    font-family: "Cantarell";
+                    font-size: .678vw;
+                    font-weight: 500;
+                    line-height: 1.1vw;
+                    text-align: justify;
+                    text-shadow: .035vw .035vw #fff;
                     margin: auto;
-                    h2 {
-                        font-family: 'BEYNO';
-                        font-weight: 100;
-                        font-size: 1vw;                 
-                    }
-                    p {
-                        background-color: red;
-                        width: 16.6vw;
-                        font-family: "Cantarell";
-                        font-size: .8vw;
-                        font-weight: 500;
-                        line-height: 1.1vw;
-                        text-shadow: .035vw .035vw #fff;
+                    margin-bottom: 3.5vw;
+                    span {
+                        text-decoration: underline;
                     }
                 }
             }
