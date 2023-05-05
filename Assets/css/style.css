@@ -32,6 +32,7 @@ body {
 }
 .wrapper header nav div img {
   width: 7vw;
+  cursor: pointer;
 }
 .wrapper header nav div ul {
   font-family: "BEYNO";
@@ -320,6 +321,7 @@ body {
   padding: 0.6vw 1.8vw;
   margin-top: 1.1vw;
   border: none;
+  cursor: pointer;
   border-radius: 2vw;
   -webkit-border-radius: 2vw;
   -moz-border-radius: 2vw;
@@ -333,24 +335,72 @@ body {
 }
 .wrapper footer .a {
   width: 47.207%;
+  padding-left: 21vw;
+  padding-top: 15.1vw;
+  position: relative;
+}
+.wrapper footer .a .footer1 {
+  width: 16.3vw;
+}
+.wrapper footer .a .footer2 {
+  width: 7.5vw;
+  position: absolute;
+  right: 12vw;
+  top: 23vw;
+  cursor: pointer;
 }
 .wrapper footer .b {
   color: #fff;
   width: 52.795%;
+  font-family: "Catarell";
 }
 .wrapper footer .b .c {
   height: 28.3vw;
-  padding-top: 10vw;
+  padding-top: 14.7vw;
   display: flex;
 }
 .wrapper footer .b .c .d {
   width: 35%;
 }
+.wrapper footer .b .c .d .p11 {
+  font-size: 1vw;
+  font-weight: 700;
+  letter-spacing: 0.4vw;
+  margin-bottom: 1.6vw;
+}
+.wrapper footer .b .c .d .p12,
+.wrapper footer .b .c .d .p13 {
+  font-size: 0.8vw;
+  cursor: pointer;
+}
 .wrapper footer .b .c .e {
   width: 65%;
+  padding-left: 3vw;
+}
+.wrapper footer .b .c .e .f {
+  font-size: 1vw;
+  font-weight: 700;
+  letter-spacing: 0.4vw;
+}
+.wrapper footer .b .c .e .f p {
+  margin-bottom: 1.6vw;
+}
+.wrapper footer .b .c .e .g img {
+  width: 2.7vw;
+  cursor: pointer;
+}
+.wrapper footer .b .c .e .g .facebook {
+  margin-right: 0.56vw;
+}
+.wrapper footer .b .c .e .g .tictok,
+.wrapper footer .b .c .e .g .twiter,
+.wrapper footer .b .c .e .g .instagram {
+  margin: 0 0.56vw;
 }
 .wrapper footer .b .h {
   height: 10.3vw;
+  padding-top: 1vw;
+  font-size: 0.8vw;
 }
 
 /*# sourceMappingURL=style.css.map */
