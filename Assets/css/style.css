@@ -55,21 +55,27 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  margin-top: -1.2vw;
 }
 .wrapper header .titre .bloc {
   color: #fff;
+  position: relative;
+  left: 3.3vw;
+  top: -2.6vw;
 }
 .wrapper header .titre .bloc h1 {
   font-family: "Panthera";
   font-size: 3vw;
   letter-spacing: 0.3vw;
   color: #9e91b7;
+  margin: 0;
 }
 .wrapper header .titre .bloc h2 {
   font-family: "BEYNO";
   font-size: 1.6vw;
   font-weight: 100;
   color: #9e91b7;
+  margin-top: 0.7vw;
 }
 .wrapper header .titre .bloc p {
   font-family: "Cantarell";
@@ -77,6 +83,32 @@ body {
   font-weight: 500;
   line-height: 1.1vw;
   text-shadow: 0.035vw 0.035vw #fff;
+}
+.wrapper header .titre .bloc .lateral-out {
+  position: fixed;
+  width: 1.4vw;
+  left: 4.7vw;
+  top: 0;
+  z-index: 2;
+}
+.wrapper header .titre .bloc .lateral-out .lateral-in1 {
+  width: 100%;
+  height: 17.5vw;
+  border-left: 0.25vw solid #9e91b7;
+  border-right: 0.25vw solid #9e91b7;
+}
+.wrapper header .titre .bloc .lateral-out .lateral-in2 {
+  width: 100%;
+  height: 8.6vw;
+  padding-top: 0.6vw;
+  padding-left: 0.5vw;
+  border-left: 0.25vw solid #9e91b7;
+}
+.wrapper header .titre .bloc .lateral-out .lateral-in2 img {
+  display: block;
+  width: 1.3vw;
+  padding-bottom: 1vw;
+  cursor: pointer;
 }
 .wrapper header .titre div img {
   width: 60vw;
