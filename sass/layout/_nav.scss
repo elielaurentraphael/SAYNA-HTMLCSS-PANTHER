@@ -1,0 +1,29 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3vw 8vw;
+    div {
+        img {
+            width: 7vw;
+            cursor: pointer;
+        }
+        ul {
+            font-family: 'BEYNO';
+            font-size: 1vw;
+            list-style: none;
+            li {
+                color: #9e91b7;
+                display: inline-block;
+                margin-left: 3vw;
+                &.link-active {
+                    text-decoration: underline;
+                }
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

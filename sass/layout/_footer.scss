@@ -1,0 +1,77 @@
+footer {
+    background-image: url('/Assets/Illustrations+Logo/All-pages/back_footer.png');
+    height: 38.6vw;
+    display: flex;
+    .a {
+        width: 47.207%;
+        padding-left: 21vw;
+        padding-top: 15.1vw;
+        position: relative;
+        .footer1 {
+            width: 16.3vw;
+        }
+        .footer2 {
+            width: 7.5vw;
+            position: absolute;
+            right: 12vw;
+            top: 23vw;
+            cursor: pointer;
+        }
+    }
+    .b {
+        color: #fff;
+        width: 52.795%;
+        font-family: "Catarell";
+        .c {
+            height: 28.3vw;
+            padding-top: 14.7vw;
+            display: flex;
+            .d {
+                width: 35%;
+                .p11 {
+                    font-size: 1vw;
+                    font-weight: 700;
+                    letter-spacing: .4vw;
+                    margin-bottom: 1.6vw;
+                }
+                .p12,
+                .p13 {
+                    font-size: .8vw;
+                    cursor: pointer;
+                }
+            }
+            .e {
+                width: 65%;
+                padding-left: 3vw;
+                .f {
+                    font-size: 1vw;
+                    font-weight: 700;
+                    letter-spacing: .4vw;
+                    p {
+                        margin-bottom: 1.6vw; 
+                    } 
+                }
+                .g {
+                    img {
+                        width: 2.7vw;
+                        cursor: pointer;
+                    }
+                    .facebook {
+                        margin-right: .56vw;
+                    }
+                    .tictok,
+                    .twiter,
+                    .instagram {
+                        margin: 0 .56vw;
+                    }
+                }
+            }
+        }
+        .h {
+            height: 10.3vw;
+            padding-top: 1vw;
+            font-size: .8vw;
+        }
+    }
+    
+}

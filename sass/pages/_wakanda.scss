@@ -1,0 +1,82 @@
+.wrapper {
+    background-image: url('/Assets/Illustrations+Logo/All-pages/arrière_plan.png');
+    header {
+        .wakanda-titre {
+            position: relative;
+            .wakanda-bloc {
+                position: absolute;
+                color: #fff;
+                top: 13.5vw;
+                left: 9vw;
+                h1 {
+                    font-family: "BEYNO";
+                    font-size: 3vw;
+                    letter-spacing: .3vw;
+                    color: #9e91b7;
+                }
+                h2 {
+                    font-family: "Wakanda forever";
+                    font-size: 1.6vw;
+                    font-weight: 100;
+                    color: #9e91b7;
+                }
+                p {
+                    font-family: "Cantarell";
+                    font-size: .8vw;
+                    font-weight: 500;
+                    line-height: 1.1vw;
+                    text-shadow: .035vw .035vw #fff;
+                }
+            }
+            img {
+                width: 100%;
+            }
+        } 
+    }
+    main {
+        .main-wakanda {
+            /*border: 2px solid red;*/
+            background-image: url("/Assets/Illustrations+Logo/Wakanda/Pantherwakanda2.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: top -55vw;
+            width: 72.78461538vw;
+            min-height: 50vw;
+            margin: auto;
+            color: #f2cef2;
+            display: flex;
+            justify-content: space-between;
+            h3 {
+                font-family: "BEYNO";
+                font-size: 1.15vw;
+                color: #9e91b7;
+            }
+            p {
+                margin: 1.1vw 0;
+                text-align: justify;
+                font-size: .678vw;
+                line-height: 1.13vw;
+            }
+            .main-wakanda1 {
+                width: 31.86153846vw;
+                /*.origines {}
+                .afro-americain {}*/
+                iframe {
+                    height: 14.5vw;
+                }
+            }
+            .main-wakanda2 {
+                width: 32.73846153vw;
+                /*.panthere-noire {}
+                .guerre-infini {}
+                .force-militaire {}*/
+                img {
+                    display: block;
+                    width: 32vw;
+                }
+                /*.anecdotes {}*/
+            }
+        }
+    }
+    
+}

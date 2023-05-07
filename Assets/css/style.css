@@ -21,35 +21,111 @@ body {
   box-sizing: border-box;
 }
 
-.wrapper {
-  background-image: url("/Assets/Illustrations+Logo/All-pages/arrière_plan.png");
+footer {
+  background-image: url("/Assets/Illustrations+Logo/All-pages/back_footer.png");
+  height: 38.6vw;
+  display: flex;
 }
-.wrapper header nav {
+footer .a {
+  width: 47.207%;
+  padding-left: 21vw;
+  padding-top: 15.1vw;
+  position: relative;
+}
+footer .a .footer1 {
+  width: 16.3vw;
+}
+footer .a .footer2 {
+  width: 7.5vw;
+  position: absolute;
+  right: 12vw;
+  top: 23vw;
+  cursor: pointer;
+}
+footer .b {
+  color: #fff;
+  width: 52.795%;
+  font-family: "Catarell";
+}
+footer .b .c {
+  height: 28.3vw;
+  padding-top: 14.7vw;
+  display: flex;
+}
+footer .b .c .d {
+  width: 35%;
+}
+footer .b .c .d .p11 {
+  font-size: 1vw;
+  font-weight: 700;
+  letter-spacing: 0.4vw;
+  margin-bottom: 1.6vw;
+}
+footer .b .c .d .p12,
+footer .b .c .d .p13 {
+  font-size: 0.8vw;
+  cursor: pointer;
+}
+footer .b .c .e {
+  width: 65%;
+  padding-left: 3vw;
+}
+footer .b .c .e .f {
+  font-size: 1vw;
+  font-weight: 700;
+  letter-spacing: 0.4vw;
+}
+footer .b .c .e .f p {
+  margin-bottom: 1.6vw;
+}
+footer .b .c .e .g img {
+  width: 2.7vw;
+  cursor: pointer;
+}
+footer .b .c .e .g .facebook {
+  margin-right: 0.56vw;
+}
+footer .b .c .e .g .tictok,
+footer .b .c .e .g .twiter,
+footer .b .c .e .g .instagram {
+  margin: 0 0.56vw;
+}
+footer .b .h {
+  height: 10.3vw;
+  padding-top: 1vw;
+  font-size: 0.8vw;
+}
+
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1.3vw 8vw;
 }
-.wrapper header nav div img {
+nav div img {
   width: 7vw;
   cursor: pointer;
 }
-.wrapper header nav div ul {
+nav div ul {
   font-family: "BEYNO";
   font-size: 1vw;
   list-style: none;
 }
-.wrapper header nav div ul li {
+nav div ul li {
   color: #9e91b7;
   display: inline-block;
   margin-left: 3vw;
 }
-.wrapper header nav div ul li.link-active {
+nav div ul li.link-active {
   text-decoration: underline;
 }
-.wrapper header nav div ul li a {
+nav div ul li a {
   text-decoration: none;
   color: #fff;
+}
+
+.wrapper {
+  background-image: url("/Assets/Illustrations+Logo/All-pages/arrière_plan.png");
 }
 .wrapper header .titre {
   display: flex;
@@ -403,79 +479,97 @@ body {
   -ms-border-radius: 2vw;
   -o-border-radius: 2vw;
 }
-.wrapper footer {
-  background-image: url("/Assets/Illustrations+Logo/All-pages/back_footer.png");
-  height: 38.6vw;
-  display: flex;
+
+.wrapper main .main-enigme {
+  min-height: 50vw;
+  /*background-image: url("/Assets/Illustrations+Logo/Enigme/Pantherenigme1.png");
+  background-repeat: no-repeat;
+  background-size: contain;*/
 }
-.wrapper footer .a {
-  width: 47.207%;
-  padding-left: 21vw;
-  padding-top: 15.1vw;
+.wrapper main .main-enigme img {
+  display: block;
+  width: 75vw;
+  position: relative;
+  top: -14.5vw;
+  left: -3.3vw;
+}
+
+.wrapper {
+  background-image: url("/Assets/Illustrations+Logo/All-pages/arrière_plan.png");
+}
+.wrapper header .wakanda-titre {
   position: relative;
 }
-.wrapper footer .a .footer1 {
-  width: 16.3vw;
-}
-.wrapper footer .a .footer2 {
-  width: 7.5vw;
+.wrapper header .wakanda-titre .wakanda-bloc {
   position: absolute;
-  right: 12vw;
-  top: 23vw;
-  cursor: pointer;
-}
-.wrapper footer .b {
   color: #fff;
-  width: 52.795%;
-  font-family: "Catarell";
+  top: 13.5vw;
+  left: 9vw;
 }
-.wrapper footer .b .c {
-  height: 28.3vw;
-  padding-top: 14.7vw;
+.wrapper header .wakanda-titre .wakanda-bloc h1 {
+  font-family: "BEYNO";
+  font-size: 3vw;
+  letter-spacing: 0.3vw;
+  color: #9e91b7;
+}
+.wrapper header .wakanda-titre .wakanda-bloc h2 {
+  font-family: "Wakanda forever";
+  font-size: 1.6vw;
+  font-weight: 100;
+  color: #9e91b7;
+}
+.wrapper header .wakanda-titre .wakanda-bloc p {
+  font-family: "Cantarell";
+  font-size: 0.8vw;
+  font-weight: 500;
+  line-height: 1.1vw;
+  text-shadow: 0.035vw 0.035vw #fff;
+}
+.wrapper header .wakanda-titre img {
+  width: 100%;
+}
+.wrapper main .main-wakanda {
+  /*border: 2px solid red;*/
+  background-image: url("/Assets/Illustrations+Logo/Wakanda/Pantherwakanda2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top -55vw;
+  width: 72.78461538vw;
+  min-height: 50vw;
+  margin: auto;
+  color: #f2cef2;
   display: flex;
+  justify-content: space-between;
 }
-.wrapper footer .b .c .d {
-  width: 35%;
+.wrapper main .main-wakanda h3 {
+  font-family: "BEYNO";
+  font-size: 1.15vw;
+  color: #9e91b7;
 }
-.wrapper footer .b .c .d .p11 {
-  font-size: 1vw;
-  font-weight: 700;
-  letter-spacing: 0.4vw;
-  margin-bottom: 1.6vw;
+.wrapper main .main-wakanda p {
+  margin: 1.1vw 0;
+  text-align: justify;
+  font-size: 0.678vw;
+  line-height: 1.13vw;
 }
-.wrapper footer .b .c .d .p12,
-.wrapper footer .b .c .d .p13 {
-  font-size: 0.8vw;
-  cursor: pointer;
+.wrapper main .main-wakanda .main-wakanda1 {
+  width: 31.86153846vw;
+  /*.origines {}
+  .afro-americain {}*/
 }
-.wrapper footer .b .c .e {
-  width: 65%;
-  padding-left: 3vw;
+.wrapper main .main-wakanda .main-wakanda1 iframe {
+  height: 14.5vw;
 }
-.wrapper footer .b .c .e .f {
-  font-size: 1vw;
-  font-weight: 700;
-  letter-spacing: 0.4vw;
+.wrapper main .main-wakanda .main-wakanda2 {
+  width: 32.73846153vw;
+  /*.panthere-noire {}
+  .guerre-infini {}
+  .force-militaire {}*/
+  /*.anecdotes {}*/
 }
-.wrapper footer .b .c .e .f p {
-  margin-bottom: 1.6vw;
-}
-.wrapper footer .b .c .e .g img {
-  width: 2.7vw;
-  cursor: pointer;
-}
-.wrapper footer .b .c .e .g .facebook {
-  margin-right: 0.56vw;
-}
-.wrapper footer .b .c .e .g .tictok,
-.wrapper footer .b .c .e .g .twiter,
-.wrapper footer .b .c .e .g .instagram {
-  margin: 0 0.56vw;
-}
-.wrapper footer .b .h {
-  height: 10.3vw;
-  padding-top: 1vw;
-  font-size: 0.8vw;
+.wrapper main .main-wakanda .main-wakanda2 img {
+  display: block;
+  width: 32vw;
 }
 
 /*# sourceMappingURL=style.css.map */
