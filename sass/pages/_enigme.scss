@@ -7,6 +7,9 @@
             background-repeat: no-repeat;
             background-size: contain;
             background-position: top -19vw left -5vw;
+            position: relative;
+            animation: fadeIn 4s;
+            animation-delay: 2s;
             /*img {
                 display: block;
                 width: 75vw;
@@ -112,6 +115,10 @@
                     display: block;
                 }
             } 
+        }
+        @keyframes fadeIn {
+            0% { left: -70vw; opacity: 0; }
+            100% { left: 0; opacity: 1; }
         }
     }
 }
