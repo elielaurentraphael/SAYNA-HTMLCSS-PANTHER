@@ -6,6 +6,9 @@
             align-items: center;
             justify-content: flex-end;
             margin-top: -1.2vw;
+            position: relative;
+            animation: fadeIn 4s;
+            animation-delay: 2s;
             .bloc {
                 color: #fff;
                 position: relative;
@@ -69,6 +72,10 @@
                 }
             }
         }
+        @keyframes fadeIn {
+            0% { left: -70vw; opacity: 0; }
+            100% { left: 0; opacity: 1; }
+        }
         .personnage {
             width: 91.5%;
             position: relative;
@@ -78,6 +85,8 @@
             display: flex;
             align-items: center;
             justify-content: flex-end;
+            animation: fadeIn 4s;
+            animation-delay: 2s;
             .text1 {
                 width: 20.4vw;
                 color: #fff;
@@ -142,6 +151,10 @@
                 top: -2.5vw;
             }
         }
+        @keyframes fadeIn {
+            0% { left: -70vw; opacity: 0; }
+            100% { left: 0; opacity: 1; }
+        }
     }
     main {
         section {
@@ -152,6 +165,9 @@
             .main-text {
                 width: 39.441%;
                 margin-left: 13.6646%;
+                position: relative;
+                animation: fadeIn 4s;
+                animation-delay: 2s;
                 h3 {
                     font-family: "BEYNO";
                     font-size: 1.15vw;
@@ -203,11 +219,17 @@
                     }
                 }
             }
+            @keyframes fadeIn {
+                0% { left: -70vw; opacity: 0; }
+                100% { left: 0; opacity: 1; }
+            }
             .main-image {
                 position: relative;
                 width: 25.1638%;
                 margin-left: 10.24%;
                 margin-right: 11.4906%;
+                animation: fadeIn 4s;
+                animation-delay: 2s;
                 .tchalla {
                     width: 100%;
                     height: 37vw;
@@ -274,6 +296,10 @@
                     display: block;
                     margin-top: 6vw;
                 }
+            }
+            @keyframes fadeIn {
+                0% { left: -70vw; opacity: 0; }
+                100% { left: 0; opacity: 1; }
             }
         }
         .contact {

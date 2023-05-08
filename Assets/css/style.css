@@ -149,6 +149,9 @@ nav div ul li a:hover {
   align-items: center;
   justify-content: flex-end;
   margin-top: -1.2vw;
+  position: relative;
+  animation: fadeIn 4s;
+  animation-delay: 2s;
 }
 .wrapper header .titre .bloc {
   color: #fff;
@@ -210,6 +213,16 @@ nav div ul li a:hover {
 .wrapper header .titre div img {
   width: 60vw;
 }
+@keyframes fadeIn {
+  0% {
+    left: -70vw;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
 .wrapper header .personnage {
   width: 91.5%;
   position: relative;
@@ -219,6 +232,8 @@ nav div ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  animation: fadeIn 4s;
+  animation-delay: 2s;
 }
 .wrapper header .personnage .text1 {
   width: 20.4vw;
@@ -283,6 +298,16 @@ nav div ul li a:hover {
   left: 2vw;
   top: -2.5vw;
 }
+@keyframes fadeIn {
+  0% {
+    left: -70vw;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
 .wrapper main section {
   margin-top: 5vw;
   padding-bottom: 3.5vw;
@@ -292,6 +317,9 @@ nav div ul li a:hover {
 .wrapper main section .main-text {
   width: 39.441%;
   margin-left: 13.6646%;
+  position: relative;
+  animation: fadeIn 4s;
+  animation-delay: 2s;
 }
 .wrapper main section .main-text h3 {
   font-family: "BEYNO";
@@ -337,11 +365,23 @@ nav div ul li a:hover {
   text-align: justify;
   font-size: 0.72vw;
 }
+@keyframes fadeIn {
+  0% {
+    left: -70vw;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
 .wrapper main section .main-image {
   position: relative;
   width: 25.1638%;
   margin-left: 10.24%;
   margin-right: 11.4906%;
+  animation: fadeIn 4s;
+  animation-delay: 2s;
 }
 .wrapper main section .main-image .tchalla {
   width: 100%;
@@ -408,6 +448,16 @@ nav div ul li a:hover {
   width: 25vw;
   display: block;
   margin-top: 6vw;
+}
+@keyframes fadeIn {
+  0% {
+    left: -70vw;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
 }
 .wrapper main .contact {
   position: relative;
