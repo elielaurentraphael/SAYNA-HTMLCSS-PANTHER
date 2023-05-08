@@ -112,7 +112,7 @@ nav div ul {
   list-style: none;
 }
 nav div ul li {
-  color: #9e91b7;
+  color: #3d2da6;
   display: inline-block;
   margin-left: 3vw;
 }
@@ -121,7 +121,12 @@ nav div ul li.link-active {
 }
 nav div ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #f2cef2;
+}
+nav div ul li a:hover {
+  text-decoration: underline;
+  text-decoration-color: #fff;
+  -moz-text-decoration-color: #fff;
 }
 
 .wrapper {

@@ -13,7 +13,7 @@ nav {
             font-size: 1vw;
             list-style: none;
             li {
-                color: #9e91b7;
+                color: $menu-active-color;
                 display: inline-block;
                 margin-left: 3vw;
                 &.link-active {
@@ -21,7 +21,12 @@ nav {
                 }
                 a {
                     text-decoration: none;
-                    color: #fff;
+                    color: $menu-color;
+                    &:hover {
+                        text-decoration: underline;
+                        text-decoration-color: $menu-hover-underline-color;
+                        -moz-text-decoration-color: $menu-hover-underline-color;
+}
                 }
             }
         }
