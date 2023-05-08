@@ -669,6 +669,8 @@ nav div ul li a:hover {
 }
 .wrapper header .wakanda-titre {
   position: relative;
+  animation: fadeIn 4s;
+  animation-delay: 2s;
 }
 .wrapper header .wakanda-titre .wakanda-bloc {
   position: absolute;
@@ -698,6 +700,16 @@ nav div ul li a:hover {
 .wrapper header .wakanda-titre img {
   width: 100%;
 }
+@keyframes fadeIn {
+  0% {
+    left: -70vw;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
 .wrapper main .main-wakanda {
   /*border: 2px solid red;*/
   background-image: url("/Assets/Illustrations+Logo/Wakanda/Pantherwakanda2.png");
@@ -724,14 +736,30 @@ nav div ul li a:hover {
 }
 .wrapper main .main-wakanda .main-wakanda1 {
   width: 31.86153846vw;
+  position: relative;
+  animation: fadeIn 4s;
+  animation-delay: 2s;
   /*.origines {}
   .afro-americain {}*/
 }
 .wrapper main .main-wakanda .main-wakanda1 iframe {
   height: 14.5vw;
 }
+@keyframes fadeIn {
+  0% {
+    left: -70vw;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
 .wrapper main .main-wakanda .main-wakanda2 {
   width: 32.73846153vw;
+  position: relative;
+  animation: fadeIn 4s;
+  animation-delay: 2s;
   /*.panthere-noire {}
   .guerre-infini {}
   .force-militaire {}*/
@@ -740,6 +768,16 @@ nav div ul li a:hover {
 .wrapper main .main-wakanda .main-wakanda2 img {
   display: block;
   width: 32vw;
+}
+@keyframes fadeIn {
+  0% {
+    left: -70vw;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
