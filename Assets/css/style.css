@@ -42,6 +42,9 @@ footer .a .footer2 {
   top: 23vw;
   cursor: pointer;
 }
+footer .a .footer2:hover {
+  filter: invert(92%) sepia(76%) saturate(6001%) hue-rotate(358deg) brightness(38%) contrast(107%);
+}
 footer .b {
   color: #fff;
   width: 52.795%;
@@ -105,6 +108,9 @@ nav {
 nav div img {
   width: 7vw;
   cursor: pointer;
+}
+nav div img:hover {
+  filter: invert(92%) sepia(76%) saturate(6001%) hue-rotate(358deg) brightness(38%) contrast(107%);
 }
 nav div ul {
   font-family: "BEYNO";
