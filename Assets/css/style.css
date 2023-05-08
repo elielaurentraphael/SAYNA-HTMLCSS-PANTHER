@@ -69,6 +69,12 @@ footer .b .c .d .p13 {
   font-size: 0.8vw;
   cursor: pointer;
 }
+footer .b .c .d .p12:hover,
+footer .b .c .d .p13:hover {
+  text-decoration: underline;
+  text-decoration-color: #fff;
+  -moz-text-decoration-color: #fff;
+}
 footer .b .c .e {
   width: 65%;
   padding-left: 3vw;
