@@ -388,6 +388,10 @@
                         -moz-border-radius: 2vw;
                         -ms-border-radius: 2vw;
                         -o-border-radius: 2vw;
+                        &:hover {
+                            filter: drop-shadow(0 0 .5vw #fff)                        ;
+                            -webkit-filter: drop-shadow(0 0 .5vw #fff)                        ;
+                        }
                     }
                 }
             }
