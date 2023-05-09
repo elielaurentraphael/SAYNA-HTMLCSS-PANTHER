@@ -66,6 +66,7 @@ footer .b .c .d .p11 {
 }
 footer .b .c .d .p12,
 footer .b .c .d .p13 {
+  width: 5vw;
   font-size: 0.8vw;
   cursor: pointer;
 }
@@ -93,11 +94,37 @@ footer .b .c .e .g img {
 }
 footer .b .c .e .g .facebook {
   margin-right: 0.56vw;
+  transition: transform 400ms;
+  -webkit-transition: transform 400ms;
+  -moz-transition: transform 400ms;
+  -ms-transition: transform 400ms;
+  -o-transition: transform 400ms;
+}
+footer .b .c .e .g .facebook:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 footer .b .c .e .g .tictok,
 footer .b .c .e .g .twiter,
 footer .b .c .e .g .instagram {
   margin: 0 0.56vw;
+  transition: transform 400ms;
+  -webkit-transition: transform 400ms;
+  -moz-transition: transform 400ms;
+  -ms-transition: transform 400ms;
+  -o-transition: transform 400ms;
+}
+footer .b .c .e .g .tictok:hover,
+footer .b .c .e .g .twiter:hover,
+footer .b .c .e .g .instagram:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 footer .b .h {
   height: 10.3vw;
