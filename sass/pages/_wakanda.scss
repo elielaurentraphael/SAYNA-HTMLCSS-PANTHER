@@ -41,7 +41,6 @@
     }
     main {
         .main-wakanda {
-            /*border: 2px solid red;*/
             background-image: url("/Assets/Illustrations+Logo/Wakanda/Pantherwakanda2.png");
             background-repeat: no-repeat;
             background-size: contain;
@@ -68,8 +67,6 @@
                 position: relative;
                 animation: fadeIn 4s;
                 animation-delay: 2s;
-                /*.origines {}
-                .afro-americain {}*/
                 iframe {
                     height: 14.5vw;
                 }
@@ -83,14 +80,10 @@
                 position: relative;
                 animation: fadeIn 4s;
                 animation-delay: 2s;            
-                /*.panthere-noire {}
-                .guerre-infini {}
-                .force-militaire {}*/
                 img {
                     display: block;
                     width: 32vw;
                 }
-                /*.anecdotes {}*/
             }
             @keyframes fadeIn {
             0% { left: -70vw; opacity: 0; }

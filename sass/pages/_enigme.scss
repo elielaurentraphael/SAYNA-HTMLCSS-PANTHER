@@ -10,13 +10,6 @@
             position: relative;
             animation: fadeIn 4s;
             animation-delay: 2s;
-            /*img {
-                display: block;
-                width: 75vw;
-                position: absolute;
-                top: -14.5vw;
-                left: -3.3vw;
-            }*/
             .enigme-title {
                 color: #9e91b7;
                 position: relative;
@@ -91,7 +84,6 @@
                     letter-spacing: .02vw;
                     word-spacing: .02vw;
                 }
-
             }
             .lettre-e {
                 width: 40vw;
@@ -162,7 +154,6 @@
                         filter: drop-shadow(0 0 .5vw #fff)                        ;
                         -webkit-filter: drop-shadow(0 0 .5vw #fff)                        ;
                     }
-                    
                 }
             } 
         }

@@ -398,7 +398,6 @@ nav div ul li a:hover {
 .wrapper main section .main-image .tchalla .identite-tchalla {
   width: 74%;
   height: 18vw;
-  /*background-color: red;*/
   margin: auto;
   font-family: "Cantarell";
   font-size: 0.83vw;
@@ -565,13 +564,6 @@ nav div ul li a:hover {
   position: relative;
   animation: fadeIn 4s;
   animation-delay: 2s;
-  /*img {
-      display: block;
-      width: 75vw;
-      position: absolute;
-      top: -14.5vw;
-      left: -3.3vw;
-  }*/
 }
 .wrapper main .main-enigme .enigme-title {
   color: #9e91b7;
@@ -777,7 +769,6 @@ nav div ul li a:hover {
   }
 }
 .wrapper main .main-wakanda {
-  /*border: 2px solid red;*/
   background-image: url("/Assets/Illustrations+Logo/Wakanda/Pantherwakanda2.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -805,8 +796,6 @@ nav div ul li a:hover {
   position: relative;
   animation: fadeIn 4s;
   animation-delay: 2s;
-  /*.origines {}
-  .afro-americain {}*/
 }
 .wrapper main .main-wakanda .main-wakanda1 iframe {
   height: 14.5vw;
@@ -826,10 +815,6 @@ nav div ul li a:hover {
   position: relative;
   animation: fadeIn 4s;
   animation-delay: 2s;
-  /*.panthere-noire {}
-  .guerre-infini {}
-  .force-militaire {}*/
-  /*.anecdotes {}*/
 }
 .wrapper main .main-wakanda .main-wakanda2 img {
   display: block;
