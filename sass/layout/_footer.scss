@@ -8,21 +8,69 @@ footer {
         padding-left: 21vw;
         padding-top: 15.1vw;
         position: relative;
-
-        .footer1 {
-            width: 16.3vw;
-        }
-
-        .footer2 {
-            width: 7.5vw;
+        .blue {
+            width: 7.4vw;
+            height: 7.4vw;
+            /* les deux derniers caractères du code représentent le canal alpha */
+            background-color: #07338c7f;     
             position: absolute;
-            right: 12vw;
-            top: 23vw;
+            top: 14.6vw;
+            border-radius: 3.7vw;
+            -webkit-border-radius: 3.7vw;
+            -moz-border-radius: 3.7vw;
+            -ms-border-radius: 3.7vw;
+            -o-border-radius: 3.7vw;
+        }
+        .purple {
+            width: 12.3vw;
+            height: 12.3vw;
+            text-align: center;
+            /* les deux derniers caractères du code représentent le canal alpha */
+            background-color: #df99f25d;     
+            position: absolute;
+            top: 17.3vw;
+            left: 23.2vw;
             cursor: pointer;
-
-            &:hover {
-                filter: invert(92%) sepia(76%) saturate(6001%) hue-rotate(358deg) brightness(38%) contrast(107%);
+            z-index: 1;
+            border-radius: 6.15vw;
+            -webkit-border-radius: 6.15vw;
+            -moz-border-radius: 6.15vw;
+            -ms-border-radius: 6.15vw;
+            -o-border-radius: 6.15vw;
+            transition: transform 400ms;
+            -webkit-transition: transform 400ms;
+            -moz-transition: transform 400ms;
+            -ms-transition: transform 400ms;
+            -o-transition: transform 400ms;
+            img {
+                width: 8.2vw;
+                margin-top: 5vw;
+                position: relative;
+                &:hover {
+                    filter: invert(92%) sepia(76%) saturate(6001%) hue-rotate(358deg) brightness(38%) contrast(107%);
+                }
             }
+            &:hover {
+                transform: scale(1.1);
+                -webkit-transform: scale(1.1);
+                -moz-transform: scale(1.1);
+                -ms-transform: scale(1.1);
+                -o-transform: scale(1.1);
+            }
+        }
+        .white {
+            width: 7.4vw;
+            height: 7.4vw;
+            /* les deux derniers caractères du code représentent le canal alpha */
+            background-color: #f2cef2af;     
+            position: absolute;
+            top: 26.3vw;
+            right: 7.8vw;
+            border-radius: 3.7vw;
+            -webkit-border-radius: 3.7vw;
+            -moz-border-radius: 3.7vw;
+            -ms-border-radius: 3.7vw;
+            -o-border-radius: 3.7vw;
         }
     }
 
