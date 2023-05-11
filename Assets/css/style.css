@@ -388,6 +388,7 @@ nav div ul li a:hover {
   position: absolute;
   background-color: #021740;
   color: #fff;
+  font-size: 1vw;
   font-weight: bold;
   text-align: center;
   line-height: 2.5vw;
@@ -626,6 +627,9 @@ nav div ul li a:hover {
   font-family: "Cantarell";
   font-size: 0.8vw;
 }
+.wrapper main .contact .formulaire form textarea::placeholder {
+  color: black;
+}
 .wrapper main .contact .formulaire form textarea,
 .wrapper main .contact .formulaire form input[type=text],
 .wrapper main .contact .formulaire form input[type=email] {
@@ -777,6 +781,7 @@ nav div ul li a:hover {
 .wrapper main .main-enigme .formulaire input[type=text] {
   width: 100%;
   height: 2.8vw;
+  color: #fff;
   display: block;
   margin: 0.9vw 0;
   border: 1px solid #fff;
@@ -930,6 +935,37 @@ nav div ul li a:hover {
     left: 0;
     opacity: 1;
   }
+}
+
+.wrap {
+  background-image: url("/Assets/Illustrations+Logo/All-pages/arrière_plan.png");
+}
+.wrap div {
+  height: 48.5vw;
+  color: #fff;
+  background-image: url("/Assets/Illustrations+Logo/Accueil/Pantherhome7.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrap div .popup {
+  width: 50.5vw;
+  height: 34vw;
+  background-image: linear-gradient(180deg, rgb(242, 206, 242) 10%, rgba(242, 206, 242, 0.1) 90%);
+  position: absolute;
+  top: 6.4vw;
+  left: 22.3vw;
+  font-family: "Panthera";
+  font-size: 3vw;
+  font-weight: 700;
+  letter-spacing: 0.3vw;
+  color: #3d2da6;
+  text-align: center;
+  line-height: 34vw;
+  border-radius: 10vw;
+  -webkit-border-radius: 10vw;
+  -moz-border-radius: 10vw;
+  -ms-border-radius: 10vw;
+  -o-border-radius: 10vw;
 }
 
 /*# sourceMappingURL=style.css.map */

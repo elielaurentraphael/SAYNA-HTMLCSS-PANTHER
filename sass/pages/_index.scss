@@ -162,6 +162,7 @@
                 position: absolute;
                 background-color: #021740;
                 color: #fff;
+                font-size: 1vw;
                 font-weight: bold;
                 text-align: center;
                 line-height: 2.5vw;
@@ -386,6 +387,9 @@
                         padding-left: 1.6vw;
                         font-family: "Cantarell";
                         font-size: .8vw;
+                        &::placeholder {
+                            color: black;
+                        }
                     }
                     textarea,
                     input[type="text"],
