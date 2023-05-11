@@ -73,7 +73,8 @@ footer .a .purple img {
   position: relative;
 }
 footer .a .purple img:hover {
-  filter: invert(92%) sepia(76%) saturate(6001%) hue-rotate(358deg) brightness(38%) contrast(107%);
+  filter: invert(95.8%) sepia(36%) saturate(6001%) hue-rotate(358deg) brightness(178%) contrast(187%);
+  -webkit-filter: invert(95.8%) sepia(36%) saturate(6001%) hue-rotate(358deg) brightness(178%) contrast(187%);
 }
 footer .a .purple:hover {
   transform: scale(1.1);
