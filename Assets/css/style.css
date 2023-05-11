@@ -503,10 +503,8 @@ nav div ul li a:hover {
   margin: auto;
   font-family: "Cantarell";
   font-size: 0.83vw;
-  color: black;
-}
-.wrapper main section .main-image .tchalla .identite-tchalla h2 {
-  text-align: center;
+  color: #000 h2;
+  color-text-align: center;
 }
 .wrapper main section .main-image .tchalla .identite-tchalla div {
   display: flex;
@@ -614,7 +612,7 @@ nav div ul li a:hover {
 }
 .wrapper main .contact .formulaire form input[type=text]::placeholder,
 .wrapper main .contact .formulaire form input[type=email]::placeholder {
-  color: black;
+  color: #000;
   padding-left: 1.6vw;
   font-family: "Cantarell";
   font-size: 0.8vw;
@@ -622,18 +620,18 @@ nav div ul li a:hover {
 .wrapper main .contact .formulaire form textarea {
   width: 100%;
   margin-top: 0.8vw;
-  color: black;
+  color: #000;
   padding-left: 1.6vw;
   font-family: "Cantarell";
   font-size: 0.8vw;
 }
 .wrapper main .contact .formulaire form textarea::placeholder {
-  color: black;
+  color: #000;
 }
 .wrapper main .contact .formulaire form textarea,
 .wrapper main .contact .formulaire form input[type=text],
 .wrapper main .contact .formulaire form input[type=email] {
-  border: 1px solid black;
+  border: 1px solid #000;
   background-color: transparent;
   border-radius: 2vw;
   -webkit-border-radius: 2vw;
@@ -802,7 +800,7 @@ nav div ul li a:hover {
   font-size: 0.65vw;
   font-weight: 700;
   letter-spacing: 0.08vw;
-  background-color: #F2CEF2;
+  background-color: #f2cef2;
   padding: 0.9vw 1.8vw;
   margin: 3.9vw auto;
   border: none;
@@ -814,8 +812,8 @@ nav div ul li a:hover {
   -o-border-radius: 2vw;
 }
 .wrapper main .main-enigme .formulaire input[type=submit]:hover {
-  filter: drop-shadow(0 0 0.5vw #fff);
-  -webkit-filter: drop-shadow(0 0 0.5vw #fff);
+  filter: drop-shadow(0 0 0.5vw #f2cef2);
+  -webkit-filter: drop-shadow(0 0 0.5vw #f2cef2);
 }
 @keyframes fadeIn {
   0% {

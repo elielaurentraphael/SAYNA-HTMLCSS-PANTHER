@@ -10,7 +10,7 @@
             animation: fadeIn 4s;
             animation-delay: 2s;
             .bloc {
-                color: #fff;
+                color: $text-color-1;
                 position: relative;
                 left: 3.3vw;
                 top: -2.6vw;
@@ -18,14 +18,14 @@
                     font-family: "Panthera";
                     font-size: 3vw;
                     letter-spacing: .3vw;
-                    color: #9e91b7;
+                    color: $title-color;
                     margin: 0;
                 }
                 h2 {
                     font-family: 'BEYNO';
                     font-size: 1.6vw;
                     font-weight: 100;
-                    color: #9e91b7;
+                    color: $title-color;
                     margin-top: .7vw;
                 }
                 p {
@@ -33,7 +33,7 @@
                     font-size: .8vw;
                     font-weight: 500;
                     line-height: 1.1vw;
-                    text-shadow: .035vw .035vw #fff;
+                    text-shadow: .035vw .035vw $text-color-1;
                     span {
                         text-decoration: underline;
                         cursor: pointer;
@@ -48,15 +48,15 @@
                     .lateral-in1 {
                         width: 100%;
                         height: 17.5vw;
-                        border-left: .25vw solid #9e91b7;
-                        border-right: .25vw solid #9e91b7;
+                        border-left: .25vw solid $title-color;
+                        border-right: .25vw solid $title-color;
                     }
                     .lateral-in2 {
                         width: 100%;
                         height: 8.6vw;
                         padding-top: .6vw;
                         padding-left: .5vw;
-                        border-left: .25vw solid #9e91b7;
+                        border-left: .25vw solid $title-color;
                         img {
                             display: block;
                             width: 1.3vw;
@@ -85,7 +85,7 @@
             position: relative;
             right: -8.05vw;
             top: -4.5vw;
-            background-color: #021740;
+            background-color: $bg-personnage-color;
             display: flex;
             align-items: center;
             justify-content: flex-end;
@@ -93,13 +93,13 @@
             animation-delay: 2s;
             .text1 {
                 width: 20.4vw;
-                color: #fff;
+                color: $text-color-1;
                 h3 {
                     margin-left: 1.8vw;
                     margin-bottom: .4vw;
                     font-family: "BEYNO";
                     font-size: 1.15vw;
-                    color: #9e91b7;
+                    color: $title-color;
                 }
                 p {
                     width: 16.6vw;
@@ -108,7 +108,7 @@
                     font-weight: 500;
                     line-height: 1.1vw;
                     text-align: justify;
-                    text-shadow: .035vw .035vw #fff;
+                    text-shadow: .035vw .035vw $text-color-1;
                     margin: auto;
                     margin-bottom: 3.5vw;
                     span {
@@ -122,13 +122,13 @@
             }
             .text2 {
                 width: 20.4vw;
-                color: #fff;
+                color: $text-color-1;
                 h3 {
                     margin-left: 1.8vw;
                     margin-bottom: .4vw;
                     font-family: "BEYNO";
                     font-size: 1.15vw;
-                    color: #9e91b7;               
+                    color: $title-color               
                 }
                 p {
                     width: 16.6vw;
@@ -137,7 +137,7 @@
                     font-weight: 500;
                     line-height: 1.1vw;
                     text-align: justify;
-                    text-shadow: .035vw .035vw #fff;
+                    text-shadow: .035vw .035vw $text-color-1;
                     margin: auto;
                     margin-bottom: 3.5vw;
                     span {
@@ -160,8 +160,8 @@
                 width: 2.5vw;
                 height: 2.5vw;
                 position: absolute;
-                background-color: #021740;
-                color: #fff;
+                background-color: $bg-personnage-color;
+                color: $text-color-1;
                 font-size: 1vw;
                 font-weight: bold;
                 text-align: center;
@@ -184,7 +184,7 @@
         section {
             margin-top: 5vw;
             padding-bottom: 3.5vw;
-            color: #fff;
+            color: $text-color-1;
             display: flex;
             .main-text {
                 width: 39.441%;
@@ -195,7 +195,7 @@
                 h3 {
                     font-family: "BEYNO";
                     font-size: 1.15vw;
-                    color: #9e91b7;
+                    color: $title-color;
                 }
                 p {
                     margin: 1.1vw 0;
@@ -257,7 +257,7 @@
                 .tchalla {
                     width: 100%;
                     height: 37vw;
-                    background-color: #fff;
+                    background-color: $bg-tchalla-color;
                     margin-top: 12vw;
                     padding-top: 13vw;
                     border-radius: .47vw;
@@ -271,7 +271,7 @@
                         margin: auto;
                         font-family: "Cantarell";
                         font-size: .83vw;
-                        color: black;
+                        color: $text-color-2
                         h2 {
                             text-align: center;
                         }
@@ -282,9 +282,9 @@
                                 display: block;
                                 padding: .3vw .5vw;
                                 font-size: .74vw;
-                                background-color: rebeccapurple;
+                                background-color: $bg-btn-identite-color;
                                 border: none;
-                                color: #fff;
+                                color: $text-color-1;
                                 cursor: pointer;
                                 border-radius: .3vw;
                                 -webkit-border-radius: .3vw;
@@ -374,7 +374,7 @@
                         display: block;
                         margin: .5vw 0;
                         &::placeholder {
-                            color: black;
+                            color: $text-color-2;
                             padding-left: 1.6vw;
                             font-family: "Cantarell";
                             font-size: .8vw;
@@ -383,18 +383,18 @@
                     textarea {
                         width: 100%;
                         margin-top: .8vw;
-                        color: black;
+                        color: $text-color-2;
                         padding-left: 1.6vw;
                         font-family: "Cantarell";
                         font-size: .8vw;
                         &::placeholder {
-                            color: black;
+                            color: $text-color-2
                         }
                     }
                     textarea,
                     input[type="text"],
                     input[type="email"] {
-                        border: 1px solid black;
+                        border: 1px solid $text-color-2;
                         background-color: transparent;
                         border-radius: 2vw;
                         -webkit-border-radius: 2vw;
@@ -415,8 +415,8 @@
                         -ms-border-radius: 2vw;
                         -o-border-radius: 2vw;
                         &:hover {
-                            filter: drop-shadow(0 0 .5vw #fff)                        ;
-                            -webkit-filter: drop-shadow(0 0 .5vw #fff)                        ;
+                            filter: drop-shadow(0 0 .5vw $text-color-1);
+                            -webkit-filter: drop-shadow(0 0 .5vw $text-color-1);
                         }
                     }
                 }

@@ -7,27 +7,27 @@
             animation-delay: 2s;
             .wakanda-bloc {
                 position: absolute;
-                color: #fff;
+                color: $text-color-1;
                 top: 13.5vw;
                 left: 9vw;
                 h1 {
                     font-family: "BEYNO";
                     font-size: 3vw;
                     letter-spacing: .3vw;
-                    color: #9e91b7;
+                    color: $title-color;
                 }
                 h2 {
                     font-family: "Wakanda forever";
                     font-size: 1.6vw;
                     font-weight: 100;
-                    color: #9e91b7;
+                    color: $title-color
                 }
                 p {
                     font-family: "Cantarell";
                     font-size: .8vw;
                     font-weight: 500;
                     line-height: 1.1vw;
-                    text-shadow: .035vw .035vw #fff;
+                    text-shadow: .035vw .035vw $text-color-1;
                 }
             }
             img {
@@ -48,13 +48,13 @@
             width: 72.78461538vw;
             min-height: 50vw;
             margin: auto;
-            color: #f2cef2;
+            color: $text-main-wakanda-color;
             display: flex;
             justify-content: space-between;
             h3 {
                 font-family: "BEYNO";
                 font-size: 1.15vw;
-                color: #9e91b7;
+                color: $title-color;
             }
             p {
                 margin: 1.1vw 0;
