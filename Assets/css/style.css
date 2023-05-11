@@ -503,8 +503,10 @@ nav div ul li a:hover {
   margin: auto;
   font-family: "Cantarell";
   font-size: 0.83vw;
-  color: #000 h2;
-  color-text-align: center;
+  color: #000;
+}
+.wrapper main section .main-image .tchalla .identite-tchalla h2 {
+  text-align: center;
 }
 .wrapper main section .main-image .tchalla .identite-tchalla div {
   display: flex;
