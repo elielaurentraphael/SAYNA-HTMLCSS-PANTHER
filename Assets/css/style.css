@@ -611,11 +611,11 @@ nav div ul li a:hover {
   height: 2.8vw;
   display: block;
   margin: 0.5vw 0;
+  padding-left: 1.6vw;
 }
 .wrapper main .contact .formulaire form input[type=text]::placeholder,
 .wrapper main .contact .formulaire form input[type=email]::placeholder {
   color: #000;
-  padding-left: 1.6vw;
   font-family: "Cantarell";
   font-size: 0.8vw;
 }
