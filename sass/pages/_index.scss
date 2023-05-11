@@ -336,7 +336,20 @@
                 height: 10.5vw;
                 position: absolute;
                 top: 45vw;
+                background-color: #021740ef;
                 background-image: url('/Assets/Illustrations+Logo/All-pages/arrière_plan.png');
+                .boule {
+                    width: 6.8vw;
+                    height: 6.8vw;
+                    background-color: #0217405d;
+                    margin-left: 81.5vw;
+                    margin-top: 2.4vw;
+                    border-radius: 3.4vw;
+                    -webkit-border-radius: 3.4vw;
+                    -moz-border-radius: 3.4vw;
+                    -ms-border-radius: 3.4vw;
+                    -o-border-radius: 3.4vw;
+                }
             }
             .formulaire {
                 width: 50.5vw;
